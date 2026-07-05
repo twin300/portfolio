@@ -48,38 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // 5. Brief Form Mock Submission
-  const briefForm = document.getElementById('project-brief-form');
-  const successMsg = document.querySelector('.form-success-msg');
-  const submitBtn = document.querySelector('.btn-submit');
 
-  if (briefForm && successMsg && submitBtn) {
-    briefForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      
-      // Visual feedback loading state
-      const origText = submitBtn.innerHTML;
-      submitBtn.disabled = true;
-      submitBtn.innerHTML = '<span>Отправка...</span>';
-      
-      setTimeout(() => {
-        // Hide button and input fields with a fade
-        submitBtn.style.display = 'none';
-        
-        // Hide input fields or just show success msg inside form
-        briefForm.querySelectorAll('.form-group').forEach(group => {
-          group.style.opacity = '0.3';
-          group.style.pointerEvents = 'none';
-        });
-        
-        successMsg.style.display = 'flex';
-        
-        // Save name for console debugging / demo purposes
-        const formData = new FormData(briefForm);
-        console.log('Brief submitted successfully:', Object.fromEntries(formData.entries()));
-      }, 1200);
-    });
-  }
 
   // 6. Smooth Scroll reveal animation helper (Intersection Observer)
   const observerOptions = {

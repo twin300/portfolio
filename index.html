@@ -39,7 +39,7 @@
       </nav>
 
       <div class="header-actions">
-        <a href="#contact" class="btn btn-secondary btn-sm header-cta">Связаться</a>
+        <a href="#contact" class="btn-header-cta">Связаться</a>
         <button class="mobile-nav-toggle" aria-label="Toggle menu">
           <span></span>
           <span></span>
@@ -211,13 +211,8 @@
               <div class="portfolio-preview">
                 <div class="browser-mockup">
                   <div class="browser-dots"><span></span><span></span><span></span></div>
-                  <div class="browser-screen">
-                    <!-- Custom mini visual design style representation of lashmaker lovat -->
-                    <div class="mockup-content lash-mockup">
-                      <div class="mockup-badge">Beauty / Booking</div>
-                      <div class="mockup-title">Lashmaker Lovat</div>
-                      <div class="mockup-btn">Записаться онлайн</div>
-                    </div>
+                  <div class="browser-screen browser-screen-img">
+                    <img src="lashmaker_lovat_mockup.png" alt="Lashmaker Lovat Preview" class="mockup-img">
                   </div>
                 </div>
               </div>
@@ -242,13 +237,8 @@
               <div class="portfolio-preview">
                 <div class="browser-mockup">
                   <div class="browser-dots"><span></span><span></span><span></span></div>
-                  <div class="browser-screen">
-                    <!-- Custom mini visual design style representation of Kids Coral -->
-                    <div class="mockup-content kids-mockup">
-                      <div class="mockup-badge">Education</div>
-                      <div class="mockup-title">Kids Coral</div>
-                      <div class="mockup-btn">Пробное занятие</div>
-                    </div>
+                  <div class="browser-screen browser-screen-img">
+                    <img src="kids_coral_mockup.png" alt="Kids Coral Preview" class="mockup-img">
                   </div>
                 </div>
               </div>
@@ -273,13 +263,8 @@
               <div class="portfolio-preview">
                 <div class="browser-mockup">
                   <div class="browser-dots"><span></span><span></span><span></span></div>
-                  <div class="browser-screen">
-                    <!-- Custom mini visual design style representation of Restik Theta -->
-                    <div class="mockup-content restik-mockup">
-                      <div class="mockup-badge">Gastronomy / Booking</div>
-                      <div class="mockup-title">Restik Theta</div>
-                      <div class="mockup-btn">Забронировать стол</div>
-                    </div>
+                  <div class="browser-screen browser-screen-img">
+                    <img src="restik_theta_mockup.png" alt="Restik Theta Preview" class="mockup-img">
                   </div>
                 </div>
               </div>
@@ -304,13 +289,8 @@
               <div class="portfolio-preview">
                 <div class="browser-mockup">
                   <div class="browser-dots"><span></span><span></span><span></span></div>
-                  <div class="browser-screen">
-                    <!-- Custom mini visual design style representation of Clean Park 77 -->
-                    <div class="mockup-content clean-mockup">
-                      <div class="mockup-badge">Cleaning Services</div>
-                      <div class="mockup-title">Clean Park 77</div>
-                      <div class="mockup-btn">Рассчитать стоимость</div>
-                    </div>
+                  <div class="browser-screen browser-screen-img">
+                    <img src="clean_park_mockup.png" alt="Clean Park 77 Preview" class="mockup-img">
                   </div>
                 </div>
               </div>
@@ -323,6 +303,169 @@
                 <p class="portfolio-desc">Высокоэффективный лендинг для клининговой компании в Москве. Встроенные калькуляторы и формы быстрой конверсии ведут пользователя прямо к заказу.</p>
                 <div class="portfolio-action">
                   <span>Посмотреть проект</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <!-- Project 5: AI Voice Bot (Schematic) -->
+          <!-- Project 5: CRM Integration & n8n (Schematic) -->
+          <a href="#contact" class="portfolio-card-link">
+            <div class="portfolio-card glow-card">
+              <div class="portfolio-preview">
+                <div class="automation-canvas sync-canvas">
+                  <div class="automation-canvas-inner">
+                    <!-- SVG connecting lines -->
+                    <svg class="automation-svg" viewBox="0 0 800 330" fill="none">
+                      <!-- Base background lines -->
+                      <path class="base-line" d="M 100,165 C 200,165 200,90 300,90" />
+                      <path class="base-line" d="M 300,90 C 400,90 400,240 500,240" />
+                      <path class="base-line" d="M 500,240 C 600,240 600,165 700,165" />
+                      
+                      <!-- Animated pulse overlays -->
+                      <path class="pulse-line pulse-crm-n8n" d="M 100,165 C 200,165 200,90 300,90" />
+                      <path class="pulse-line pulse-n8n-gs" d="M 300,90 C 400,90 400,240 500,240" />
+                      <path class="pulse-line pulse-gs-report" d="M 500,240 C 600,240 600,165 700,165" />
+                    </svg>
+
+                    <!-- Node 1: CRM (Input) -->
+                    <div class="canvas-node node-sync-crm" style="left: 12.5%; top: 50%;">
+                      <div class="node-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+                      </div>
+                      <div class="node-content">
+                        <span class="node-type">CRM-Лид</span>
+                        <span class="node-name">Amo / Bitrix CRM</span>
+                      </div>
+                    </div>
+
+                    <!-- Node 2: n8n Core -->
+                    <div class="canvas-node node-n8n" style="left: 37.5%; top: 27.2%;">
+                      <div class="node-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M3 12h6M15 12h6M12 3v6M12 15v3M12 18H8"/></svg>
+                      </div>
+                      <div class="node-content">
+                        <span class="node-type">Сценарий</span>
+                        <span class="node-name">n8n Automation</span>
+                      </div>
+                    </div>
+
+                    <!-- Node 3: Google Sheets -->
+                    <div class="canvas-node node-sync-gs" style="left: 62.5%; top: 72.8%;">
+                      <div class="node-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/></svg>
+                      </div>
+                      <div class="node-content">
+                        <span class="node-type">База</span>
+                        <span class="node-name">Google Sheets</span>
+                      </div>
+                    </div>
+
+                    <!-- Node 4: Telegram (Output) -->
+                    <div class="canvas-node node-sync-tg" style="left: 87.5%; top: 50%;">
+                      <div class="node-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.11.02-1.93 1.23-5.46 3.62-.51.35-.98.53-1.39.51-.46-.01-1.35-.26-2.01-.48-.81-.27-1.46-.42-1.4-.88.03-.24.36-.49.99-.75 3.87-1.69 6.46-2.8 7.76-3.33 3.69-1.5 4.45-1.76 4.95-1.77.11 0 .36.03.52.16.14.11.18.27.2.42-.01.07-.01.15-.02.22z"/></svg>
+                      </div>
+                      <div class="node-content">
+                        <span class="node-type">Отчет</span>
+                        <span class="node-name">Отчет в Telegram</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-info">
+                <div class="portfolio-tags">
+                  <span class="tag">n8n / Make</span>
+                  <span class="tag">CRM Integration</span>
+                </div>
+                <h3>Синхронизация CRM & Автоотчеты</h3>
+                <p class="portfolio-desc">Интеграционная система автоматизации бизнеса. Синхронизирует сделки из CRM с базами данных, выгружает сводную аналитику в Google Таблицы и отправляет ежедневные финансовые отчеты в Telegram.</p>
+                <div class="portfolio-action">
+                  <span>Обсудить интеграцию</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <!-- Project 6: Automation & Telegram Bot -->
+          <a href="#contact" class="portfolio-card-link">
+            <div class="portfolio-card glow-card">
+              <div class="portfolio-preview">
+                <div class="automation-canvas">
+                  <div class="automation-canvas-inner">
+                    <!-- SVG connecting lines -->
+                    <svg class="automation-svg" viewBox="0 0 800 330" fill="none">
+                      <!-- Base background lines -->
+                      <path class="base-line" d="M 100,165 C 250,165 250,80 400,80" />
+                      <path class="base-line" d="M 100,165 C 250,165 250,250 400,250" />
+                      <path class="base-line" d="M 400,80 C 550,80 550,165 700,165" />
+                      <path class="base-line" d="M 400,250 C 550,250 550,165 700,165" />
+                      
+                      <!-- Animated pulse overlays -->
+                      <path class="pulse-line pulse-tg-ai" d="M 100,165 C 250,165 250,80 400,80" />
+                      <path class="pulse-line pulse-tg-gs" d="M 100,165 C 250,165 250,250 400,250" />
+                      <path class="pulse-line pulse-ai-crm" d="M 400,80 C 550,80 550,165 700,165" />
+                      <path class="pulse-line pulse-gs-crm" d="M 400,250 C 550,250 550,165 700,165" />
+                    </svg>
+
+                    <!-- Node 1: Telegram (Input) -->
+                    <div class="canvas-node node-tg" style="left: 12.5%; top: 50%;">
+                      <div class="node-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.11.02-1.93 1.23-5.46 3.62-.51.35-.98.53-1.39.51-.46-.01-1.35-.26-2.01-.48-.81-.27-1.46-.42-1.4-.88.03-.24.36-.49.99-.75 3.87-1.69 6.46-2.8 7.76-3.33 3.69-1.5 4.45-1.76 4.95-1.77.11 0 .36.03.52.16.14.11.18.27.2.42-.01.07-.01.15-.02.22z"/></svg>
+                      </div>
+                      <div class="node-content">
+                        <span class="node-type">Вход</span>
+                        <span class="node-name">Telegram Bot</span>
+                      </div>
+                    </div>
+
+                    <!-- Node 2: AI-Agent (GPT-4) -->
+                    <div class="canvas-node node-ai" style="left: 50%; top: 24.2%;">
+                      <div class="node-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg>
+                      </div>
+                      <div class="node-content">
+                        <span class="node-type">Анализ</span>
+                        <span class="node-name">ИИ-Агент (GPT)</span>
+                      </div>
+                    </div>
+
+                    <!-- Node 3: Google Sheets -->
+                    <div class="canvas-node node-gs" style="left: 50%; top: 75.8%;">
+                      <div class="node-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/></svg>
+                      </div>
+                      <div class="node-content">
+                        <span class="node-type">База</span>
+                        <span class="node-name">Google Sheets</span>
+                      </div>
+                    </div>
+
+                    <!-- Node 4: AmoCRM -->
+                    <div class="canvas-node node-crm" style="left: 87.5%; top: 50%;">
+                      <div class="node-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+                      </div>
+                      <div class="node-content">
+                        <span class="node-type">Сделка</span>
+                        <span class="node-name">AmoCRM</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-info">
+                <div class="portfolio-tags">
+                  <span class="tag">Telegram Bot</span>
+                  <span class="tag">AI + CRM Automation</span>
+                </div>
+                <h3>Автоматизация заявок & AI-Лидогенерация</h3>
+                <p class="portfolio-desc">Комплексная Telegram Web App система с интеграцией ИИ-ассистента и CRM-систем. Автоматизирует опрос пользователей, квалифицирует лидов и переносит данные в CRM, экономя время менеджеров.</p>
+                <div class="portfolio-action">
+                  <span>Обсудить похожую систему</span>
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
                 </div>
               </div>
@@ -366,60 +509,70 @@
       </div>
     </section>
 
-    <!-- Call to Action / Interactive briefing form -->
+    <!-- Call to Action / Editorial contacts split -->
     <section id="contact" class="contact section-padding">
       <div class="container">
-        <div class="contact-wrapper">
-          <div class="contact-info-block">
-            <h2 class="section-title">Давайте создадим актив для вашего бизнеса</h2>
-            <p class="contact-lead-text">
-              Опишите кратко вашу задачу. Я помогу рассчитать примерную стоимость внедрения автоматизации или ИИ-агента и предложу стратегию окупаемости.
+        <div class="contact-split-layout">
+          <!-- Left: Big typography -->
+          <div class="contact-text-column">
+            <span class="contact-tag">Связь</span>
+            <h2 class="contact-giant-title">Давайте<br>создадим<br>актив.</h2>
+            <p class="contact-editorial-desc">
+              Свяжитесь со мной удобным для вас способом. Я помогу рассчитать примерную стоимость проекта и предложу стратегию окупаемости.
             </p>
-            <div class="direct-contacts">
-              <a href="https://t.me/matvey_geek" target="_blank" class="contact-item tg-link">
-                <span class="contact-icon">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.198 2.43a2.23 2.23 0 0 0-2.434-.439L3.045 8.41a2.23 2.23 0 0 0-.195 4.1l4.419 2.052a1.25 1.25 0 0 0 1.185-.083l9.045-6.03a.25.25 0 0 1 .343.366l-7.382 7.025a1.25 1.25 0 0 0-.343.82v3.088c0 .75.908 1.126 1.439.596l2.122-2.12a1.25 1.25 0 0 1 1.202-.275l4.898 1.633a2.23 2.23 0 0 0 2.91-1.76l1.985-13.896a2.23 2.23 0 0 0-.582-1.921z"/></svg>
-                </span>
-                <div>
-                  <span class="contact-label">Написать в Telegram</span>
-                  <span class="contact-value">@matvey_geek</span>
-                </div>
-              </a>
-            </div>
           </div>
+          
+          <!-- Right: Brand cards list -->
+          <div class="contact-links-column">
+            <!-- Telegram -->
+            <a href="https://t.me/matvey_geek" target="_blank" class="editorial-contact-card tg-card">
+              <div class="editorial-contact-left">
+                <div class="editorial-contact-icon">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M21.9,2.1c-0.2-0.2-0.5-0.2-0.7,0L1.7,9.9C1.1,10.2,1,10.8,1.4,11.2l4.8,2.7l1.7,5.5c0.2,0.6,0.8,0.9,1.4,0.7c0.2-0.1,0.4-0.2,0.5-0.4l2.8-3.4l4.9,3.7c0.4,0.3,1,0.2,1.3-0.2c0.2-0.2,0.3-0.5,0.2-0.8L22.5,2.9C22.6,2.6,22.3,2.2,21.9,2.1z M8.9,13.7l-0.2,2.3c0,0.1-0.1,0.1-0.2,0.1c0,0,0,0,0,0l-0.6-2.1c0,0,0,0,0,0L17,7.2C17,7.1,17,7.1,17,7.2L8.9,13.7z"/></svg>
+                </div>
+                <div class="editorial-contact-info">
+                  <span class="editorial-contact-name">Telegram</span>
+                  <span class="editorial-contact-value">@matvey_geek</span>
+                </div>
+              </div>
+              <span class="editorial-contact-arrow">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+              </span>
+            </a>
 
-          <div class="contact-form-block">
-            <form id="project-brief-form" class="brief-form">
-              <div class="form-group">
-                <label for="client-name">Ваше имя</label>
-                <input type="text" id="client-name" name="name" placeholder="Иван" required>
+            <!-- WhatsApp -->
+            <!-- TODO: Замените номер телефона 79999999999 на ваш реальный номер -->
+            <a href="https://wa.me/79999999999" target="_blank" class="editorial-contact-card wa-card">
+              <div class="editorial-contact-left">
+                <div class="editorial-contact-icon">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12.012 2c-5.506 0-9.988 4.482-9.988 9.988 0 1.76.457 3.48 1.328 5L2 22l5.176-1.361c1.47.8 3.123 1.22 4.825 1.22 5.506 0 9.988-4.482 9.988-9.988C22 6.482 17.518 2 12.012 2zm5.736 14.346c-.23.65-1.324 1.196-1.83 1.24-.46.04-.925.196-2.93-.596-2.564-1.013-4.19-3.626-4.316-3.796-.125-.17-1.026-1.365-1.026-2.603 0-1.24.65-1.85.88-2.1.23-.25.507-.312.678-.312s.344.004.494.01c.153.008.36-.032.553.434.195.47.674 1.637.733 1.758.06.12.1.26.02.422-.08.163-.12.26-.24.4-.12.14-.253.313-.362.42-.12.119-.244.249-.105.488.139.24.619 1.018 1.328 1.65.912.81 1.68 1.06 1.92 1.18.24.12.38.1.52-.06.14-.16.6-1.008.76-1.25.16-.242.32-.2.54-.12.22.08 1.396.658 1.636.778s.4.18.46.28c.06.1.06.582-.17 1.232z"/></svg>
+                </div>
+                <div class="editorial-contact-info">
+                  <span class="editorial-contact-name">WhatsApp</span>
+                  <span class="editorial-contact-value">+7 (999) 999-99-99</span>
+                </div>
               </div>
-              <div class="form-group">
-                <label for="client-contact">Контакт для связи (Telegram / Телефон)</label>
-                <input type="text" id="client-contact" name="contact" placeholder="@username или +7..." required>
+              <span class="editorial-contact-arrow">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+              </span>
+            </a>
+
+            <!-- MAX -->
+            <!-- TODO: Замените ссылку на ваш профиль в MAX -->
+            <a href="https://max.ru/79999999999" target="_blank" class="editorial-contact-card max-card">
+              <div class="editorial-contact-left">
+                <div class="editorial-contact-icon">
+                  <svg viewBox="0 0 100 100" width="24" height="24" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"><path d="M50.76 0c27.53 0 49.12 22.34 49.12 49.89S77.61 99.23 51.02 99.23c-9.43 0-14.01-1.33-21.37-6.54-.5-.36-1.2-.26-1.63.19-5.66 6.04-20.17 10.28-20.83 2.03C7.19 80.53 0 71.18 0 49.61 0 21.3 23.22 0 50.76 0m.77 24.55c-13.07-.68-23.26 8.39-25.51 22.58-1.86 11.75 1.44 26.07 4.26 26.8 1.2.3 4.08-1.9 6.18-3.88.4-.37.99-.44 1.45-.15 3.27 2 6.97 3.5 11.05 3.71 13.42.7 25.3-9.8 26-23.21.71-13.42-10.01-25.14-23.43-25.85"/></svg>
+                </div>
+                <div class="editorial-contact-info">
+                  <span class="editorial-contact-name">MAX</span>
+                  <span class="editorial-contact-value">Написать в MAX</span>
+                </div>
               </div>
-              <div class="form-group">
-                <label for="project-type">Что требуется разработать?</label>
-                <select id="project-type" name="type">
-                  <option value="bot">Telegram бот / Автоворонка</option>
-                  <option value="ai">Интеграция ИИ-агентов</option>
-                  <option value="automation">Автоматизация бизнес-процессов</option>
-                  <option value="website">Высококонверсионный сайт</option>
-                  <option value="complex">Комплексная экосистема</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="project-desc">Коротко о задаче и бизнесе</label>
-                <textarea id="project-desc" name="description" rows="4" placeholder="Например: клининговая компания в Москве, хотим автоматизировать квалификацию клиентов через бота..."></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary btn-block btn-submit">
-                <span>Отправить запрос</span>
-              </button>
-              <div class="form-success-msg" style="display: none;">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-                Запрос успешно сформирован! Я свяжусь с вами в ближайшее время.
-              </div>
-            </form>
+              <span class="editorial-contact-arrow">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+              </span>
+            </a>
           </div>
         </div>
       </div>

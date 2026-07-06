@@ -1497,6 +1497,26 @@ h4 {
   }
 }
 
+@media (max-width: 576px) {
+  .editorial-contact-card {
+    padding: 1.25rem 1.5rem;
+    border-radius: 16px;
+  }
+
+  .editorial-contact-name {
+    font-size: 1.1rem;
+  }
+
+  .editorial-contact-value {
+    font-size: 0.8rem;
+  }
+
+  /* Prevent excessive translation on mobile hover to avoid horizontal overflow */
+  .editorial-contact-card:hover {
+    transform: translateX(4px);
+  }
+}
+
 
 
 
